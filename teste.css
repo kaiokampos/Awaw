@@ -1,0 +1,37 @@
+.section-projects-filters {
+    position: relative;
+}
+
+.section-projects-filters ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-projects-filters li {
+    display: inline-block;
+    border-left: 1px solid #333; /* Borda esquerda */
+    padding: 10px 20px; /* Espaçamento interno */
+    position: relative; /* Para posicionar a borda */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+.section-projects-filters li.active::after {
+    content: "";
+    position: absolute;
+    bottom: -4px; /* Distância da borda inferior */
+    left: 10px;   /* Espaço da borda esquerda */
+    right: 10px;  /* Espaço da borda direita */
+    height: 4px;  /* Altura da borda */
+    background-color: #3498db; /* Cor da borda */
+}
+
+.section-projects-filters li:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -4px; /* Distância da borda inferior */
+    left: 10px;   /* Espaço da borda esquerda */
+    right: 10px;  /* Espaço da borda direita */
+    height: 4px;  /* Altura da borda */
+    background-color: #3498db; /* Cor da borda */
+}
