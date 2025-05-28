@@ -488,12 +488,48 @@ header{
 }
 /*FECHAMENTO DA SECAO DE DEPOIMENTOS*/
 
+/*ABERTURA DA SEÇÃO COMPANHIA*/
+
+.section-companies {
+    border-top:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+}
+.section-companies-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-company{
+    display: flex;
+    align-items: center;
+}
+/*FECHAMENTO DA SEÇÃO COMPANHIA*/
 
 
 
+/*ABERTURA DA SECAO DE PRECO*/
 
+.section-price{
+    background-color:red;
 
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-price-item{
+    background-color:blue;
+    border:1px solid green;
 
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+/*FECHAMENTO DA SECAO DE PRECO*/
 
 
 
