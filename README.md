@@ -36,8 +36,12 @@
 
 Abra o arquivo home.html em seu navegador preferido.
 
+2. Acesse o Site aqui:
+   https://kaiokampos.github.io/Awaw/
+
 📝 Licença
 Este projeto está licenciado sob a MIT License.
 
 🙋‍♂️ Contato
 Desenvolvido por @kaiokampos.
+Esse design não foi criado por mim, eu somente repliquei, todos os direitos reservados ao criador. 
