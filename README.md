@@ -20,6 +20,10 @@
 │   ├── css
 │   └── images
 └── media
+│
+└── index.html
+│
+└── README.md
 ```
 
 
