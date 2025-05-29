@@ -14,12 +14,13 @@
   - Organização de arquivos em pastas como `assets/` e `media/`.
 
 ## 📁 Estrutura do Projeto
+```
 .
 ├── assets
 │   ├── css
 │   └── images
 └── media
-
+```
 
 
 ## 🚀 Como Visualizar
